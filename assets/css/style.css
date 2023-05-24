@@ -108,7 +108,7 @@ section{
   padding-left: 25px;
 }
 .homepage-grow-bg-top{
-  content: url(assets/images/bg-section-top-mobile-1.svg); 
+  content: url(../images/bg-section-top-mobile-1.svg); 
 }
 .homepage-grow-bg-top,.homepage-user-bg-top{
   margin-top: 50px;
@@ -133,16 +133,16 @@ section{
   padding: 100px 85px ;
 }
 .homepage-grow-bg-bottom{
-  content: url(assets/images/bg-section-bottom-mobile-1.svg);
+  content: url(../images/bg-section-bottom-mobile-1.svg);
 }
 .homepage-grow-bg-bottom,.homepage-user-bg-bottom{
   margin-bottom: 50px;
 }
 .homepage-user-bg-top{
-  content: url(assets/images/bg-section-top-mobile-2.svg);
+  content: url(../images/bg-section-top-mobile-2.svg);
 }
 .homepage-user-bg-bottom{
-  content: url(assets/images/bg-section-bottom-mobile-2.svg);
+  content: url(../images/bg-section-bottom-mobile-2.svg);
 }
 .homepage-user-img{
   padding: 20px 85px 100px 85px ;
@@ -163,7 +163,7 @@ section{
   padding:60px 60px;
 }
 .footer-bg-top{
-  content: url(assets/images/bg-footer-top-mobile.svg);
+  content: url(../images/bg-footer-top-mobile.svg);
 }
 .footer-newsletter{
   padding-right: 20px;
@@ -296,19 +296,19 @@ section{
     align-self: start;
   }
   .homepage-grow-bg-top{
-    content: url(assets/images/bg-section-top-desktop-1.svg); 
+    content: url(../images/bg-section-top-desktop-1.svg); 
   }
   .homepage-grow-bg-bottom{
-    content: url(assets/images/bg-section-bottom-desktop-1.svg);
+    content: url(../images/bg-section-bottom-desktop-1.svg);
   }
   .homepage-grow-bg-bottom,.homepage-user-bg-bottom{
     margin-bottom: 50px;
   }
   .homepage-user-bg-top{
-    content: url(assets/images/bg-section-top-desktop-2.svg);
+    content: url(../images/bg-section-top-desktop-2.svg);
   }
   .homepage-user-bg-bottom{
-    content: url(assets/images/bg-section-bottom-desktop-2.svg);
+    content: url(../images/bg-section-bottom-desktop-2.svg);
   }
   .homepage-flowing{
     display: flex;
@@ -353,7 +353,7 @@ section{
     margin-bottom: 150px;
   }
   .footer-bg-top{
-    content: url(assets/images/bg-footer-top-desktop.svg);
+    content: url(../images/bg-footer-top-desktop.svg);
   }
   .footer{
     display: grid;

@@ -55,6 +55,7 @@ p,a{
   border: 0.5px solid var(--pink);
   border-radius: 19px;
 }
+/*---------------------------------first section "begin"-------------------------------------------*/
 section{
   text-align: center;
 }
@@ -86,6 +87,7 @@ section{
 .btn a{
   font-weight: 600;
 }
+/*---------------------------------second section community-------------------------------------------*/
 .homepage-community-text{
   margin: 0px 50px 0px 50px;
   align-items: center;
@@ -107,6 +109,7 @@ section{
   align-items: flex-start;
   padding-left: 25px;
 }
+/*---------------------------------third section grow-------------------------------------------*/
 .homepage-grow-bg-top{
   content: url(../images/bg-section-top-mobile-1.svg); 
 }
@@ -138,6 +141,7 @@ section{
 .homepage-grow-bg-bottom,.homepage-user-bg-bottom{
   margin-bottom: 50px;
 }
+/*---------------------------------fifth section user-------------------------------------------*/
 .homepage-user-bg-top{
   content: url(../images/bg-section-top-mobile-2.svg);
 }
@@ -150,6 +154,7 @@ section{
 .homepage-user-text{
   padding: 0px 55px 150px 55px ;
 }
+/*---------------------------------sixth section "end"-------------------------------------------*/
 .homepage-end{
   margin: 110px 40px 300px 40px;
   align-items: center;
@@ -157,6 +162,8 @@ section{
 .homepage-end h2{
   margin-bottom: 45px;
 }
+/*---------------------------------footer-------------------------------------------*/
+
 .footer{
   background-color: var(--very-dark-cyan);
   color: var(--white);
@@ -263,6 +270,7 @@ section{
     width: 225px;
     height: 35px;
   }
+  /*---------------------------------first section "begin"-------------------------------------------*/
   .homepage-begin{
     margin:0px 60px 0px 60px;
   }
@@ -280,6 +288,7 @@ section{
     padding: 25px 0px;
     border-radius: 50px;
   }
+  /*---------------------------------second section community-------------------------------------------*/
   .screen-mockups{
     padding: 100px 170px 50px 170px ;
   }
@@ -296,6 +305,7 @@ section{
   .homepage-community-text-top p{
     align-self: start;
   }
+  /*---------------------------------third section grow-------------------------------------------*/
   .homepage-grow-bg-top{
     content: url(../images/bg-section-top-desktop-1.svg); 
   }
@@ -305,12 +315,7 @@ section{
   .homepage-grow-bg-bottom,.homepage-user-bg-bottom{
     margin-bottom: 50px;
   }
-  .homepage-user-bg-top{
-    content: url(../images/bg-section-top-desktop-2.svg);
-  }
-  .homepage-user-bg-bottom{
-    content: url(../images/bg-section-bottom-desktop-2.svg);
-  }
+ /*---------------------------------fourth section flowing-------------------------------------------*/
   .homepage-flowing{
     display: flex;
     align-items: center;
@@ -347,12 +352,21 @@ section{
   .homepage-flowing-text{
     padding-right: 90px;
   }
+  /*---------------------------------fifth section user-------------------------------------------*/
+  .homepage-user-bg-top{
+    content: url(../images/bg-section-top-desktop-2.svg);
+  }
+  .homepage-user-bg-bottom{
+    content: url(../images/bg-section-bottom-desktop-2.svg);
+  }
+  /*---------------------------------sixth section "end"-------------------------------------------*/
   .homepage-end-text h2{
     font-size: 40px;
   }
   .homepage-end{
     margin-bottom: 150px;
   }
+  /*---------------------------------footer-------------------------------------------*/
   .footer-bg-top{
     content: url(../images/bg-footer-top-desktop.svg);
   }

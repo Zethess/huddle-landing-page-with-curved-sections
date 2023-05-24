@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://kit.fontawesome.com/5cdd7f70f3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <div class="page-wrapper">
+      <header>
+        <div class="header-wrapper">
+          <img src="assets/images/logo.svg" width="160" height="26" alt="logo">
+          <a href="#">Try It Free</a>
+        </div>
+      </header>
+    </div>
+    <main id="homepage">
+     <section>
+      <div class="homepage-begin">
+        <div class="homepage-begin-text text">
+          <h2>Build The Community Your Fans Will Love</h2>
+          <p>Huddle re-imagines the way we build communities. You have a voice, but so does 
+            your audience. Create connections with your users as you engage in genuine discussion.</p>
+        </div>
+        <div class="homepage-begin-button btn">
+          <a href="#">Get Started For Free</a>
+        </div>
+      </div>
+     </section>  
+     <section>
+      <div class="homepage-community">
+        <div class="homepage-community-img screen-mockups">
+          <img src="assets/images/screen-mockups.svg" alt="Screen Mockups">
+        </div>
+        <div class="homepage-community-text ">
+          <div class="homepage-community-text-top community-text">
+            <img src="assets/images/icon-communities.svg" width="40" height="35" alt="">
+            <span>1.4k+</span>
+            <p>Communities Formed</p>
+          </div>
+          <div class="homepage-community-text-bottom community-text">
+            <img src="assets/images/icon-messages.svg" width="38" height="30"  alt="">
+            <span>2.7m+</span>
+            <p>Messages Sent</p>
+          </div>
+        </div>
+      </div>
+     </section>  
+     <section>
+      <div class="homepage-grow-wrapper">
+        <div class="homepage-grow-bg-top bg"></div>
+        <div class="homepage-grow homepage-grid">
+          <div class="homepage-grow-img grow-img images homepage-grid-right">
+            <img src="assets/images/illustration-grow-together.svg"  alt="">
+          </div>
+          <div class="homepage-grow-text homepage-text homepage-grid-left">
+            <h3>Grow Together</h3>
+            <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+              Think of the insightful conversations you miss out on with a feedback form.</p>
+          </div>
+        </div>
+        <div class="homepage-grow-bg-bottom bg"></div>
+      </div>
+     </section>
+     <section>
+      <div class="homepage-flowing-wrapper">
+        <div class="homepage-flowing">
+          <div class="homepage-flowing-img flowing-img images">
+            <img src="assets/images/illustration-flowing-conversation.svg" alt="">
+          </div>
+          <div class="homepage-flowing-text homepage-text">
+            <h3>Flowing Conversations</h3>
+            <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+              just-in-time loading for a more natural flow.</p>
+          </div>
+        </div>
+      </div>
+     </section>
+     <section>
+      <div class="homepage-user-wrapper">
+        <div class="homepage-user-bg-top bg"></div>
+        <div class="homepage-user homepage-grid">
+          <div class="homepage-user-img user-img images homepage-grid-right">
+            <img src="assets/images/illustration-your-users.svg" alt="">
+          </div>
+          <div class="homepage-user-text homepage-text homepage-grid-left">
+            <h3>Your Users</h3>
+            <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+              once signed in to your app, your users can start chatting immediately.</p>
+          </div>
+        </div>
+        <div class="homepage-user-bg-bottom bg"></div>
+      </div>
+     </section>
+     <section>
+      <div class="homepage-end">
+        <div class="homepage-end-text text">
+          <h2>Ready To Build Your Community?</h2>
+        </div>
+        <div class="homepage-end-button btn">
+          <a href="#">Get Started For Free</a>
+        </div>
+      </div>
+     </section>
+    </main>
+  </div>
+  <footer>
+    <div class="footer-wrapper">
+      <div class="footer-bg-top bg"></div>
+      <div class="footer">
+        <div class="footer-newsletter">
+          <div class="footer-newsletter-text">
+            <h4>Newsletter</h4>
+            <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+              send you spam or pass on your email address</p>
+          </div>
+          <div class="footer-form">
+            <form class="footer-newsletter-form" method="POST" >
+              <input class="first_input input" type="text" name="campo1" placeholder="" />
+              <input class="second_input input" type="submit" value="Subscribe" />
+            </form>
+            <p id="message"></p>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <div class="footer-contact-logo">
+            <img src="assets/images/logo.svg" width="160" height="26" alt="logo" class="img-filter">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+              vestibulum a, ultrices quis sem.</p>
+          </div>
+          <div class="footer-contact-info">
+            <ul>
+              <li class="footer-contact-info-top">
+                <img src="assets/images/icon-phone.svg" width="20" height="20" alt="">
+                <p>Phone: +1-543-123-4567</p>
+              </li>
+              <li>
+                <img src="assets/images/icon-email.svg" width="25" height="20" alt="">
+                <p>example@huddle.com</p>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-contact-media">
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-square-facebook" ></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+            </ul>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

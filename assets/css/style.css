@@ -42,7 +42,7 @@ h2{
 p,a{
   font: 400 17px var(--font-family-sans);
 }
-
+/*-------------------------------------------header-------------------------------------------*/ 
 .header-wrapper{
   margin: 60px 35px 170px 35px;
   display: flex;
@@ -221,8 +221,8 @@ section{
 }
 .footer-form p{
   position:absolute;
-  top: 65px;
-  font-size: 13px;
+  top: 55px;
+  font-size: 12px;
   color: var(--light-red);
   outline: none;
   border: none;
@@ -255,6 +255,7 @@ section{
   p,a{
     font-size: 19px;
   }
+  /*-------------------------------------------header-------------------------------------------*/ 
   .header-wrapper{
     margin: 60px 60px 170px 60px;
   }

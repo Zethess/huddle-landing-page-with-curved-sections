@@ -320,6 +320,7 @@ section{
   .homepage-flowing{
     display: flex;
     align-items: center;
+    margin-top: 100px;
   }
   .images{
     padding: 60px 0px 60px 0px ;
@@ -365,7 +366,7 @@ section{
     font-size: 40px;
   }
   .homepage-end{
-    margin-bottom: 170px;
+    margin: 150px 40px 170px 40px;
   }
   /*---------------------------------footer-------------------------------------------*/
   .footer-bg-top{
